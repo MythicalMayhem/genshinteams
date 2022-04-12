@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: lightgray;
+}
+.teams-item {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+}
+.character-list {
+    display: flex;
+    flex-direction: row;
+    background-color: #222431;
+    padding: 15px;
+    margin: 0.25cm;
+    width: 45%;
+    border-radius: 0.25cm;
+}
+a {
+    background-color: #353749;
+    text-decoration: none;
+    color: azure;
+    margin: 7px;
+    padding: 4px;
+    height: 6cm;
+    width: 4.5cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
